@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clever2</title>
+  <link rel="icon" type="image/x-icon" href="./favicon.png">
+</head>
+
+  <link rel="stylesheet" href="style.css">
+
+<body>
+</html>
+
+<script type="text/javascript" language="JavaScript"><!--
+function DoViewIFRAME(tid1,tid2,tid3) {
+document.getElementById(tid1).style.display = "none";
+document.getElementById(tid2).style.display = "";
+document.getElementById(tid3).style.display = "";
+}
+function DoHideIFRAME(tid1,tid2,tid3) {
+document.getElementById(tid1).style.display = "none";
+document.getElementById(tid2).style.display = "none";
+document.getElementById(tid3).style.display = "";
+}
+//--></script>
+
+<span 
+   id="viewiframe" 
+   onclick="DoViewIFRAME('viewiframe','hideiframe','aniframeupstart');" 
+   class="overlay"
+   style="line-height: 16px; z-index: 2;"
+      right:0;
+      left:0;
+      top:0;
+      bottom:0;
+      font-size: 8px; 
+      font-weight: bold; 
+      font-family: sans-serif; 
+      color: blue; 
+      background-color: transparent;">
+<nobr>[]</nobr>
+</span>
+<span 
+   id="hideiframe" 
+   onclick="DoHideIFRAME('hideiframe','aniframeupstart','viewiframe');" 
+   class="overlay:"
+   style=""line-height: 16px; z-index: 2;"; 
+      right:0;
+      left:0;
+      top:0;
+      bottom:0; 
+      font-size: 8px; 
+      font-weight: bold; 
+      font-family: sans-serif; 
+      background-color: transparent; 
+      color: blue;">
+<nobr>[]</nobr>
+</span>
+
+<div 
+   id="aniframeupstart" 
+   align="center" 
+   style="display: none;">
+  <iframe 
+     src="https://calculustips.xyz" 
+     margin="0" 
+     border="none" 
+     scrollbars="auto" 
+     width="1300px" 
+     height="620px">
+  </iframe>
+</div>
+</body>
