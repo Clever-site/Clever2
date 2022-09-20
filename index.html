@@ -70,3 +70,51 @@ document.getElementById(tid3).style.display = "";
   </iframe>
 </div>
 </body>
+
+           <span 
+   id="viewiframe1" 
+   onclick="DoViewIFRAME('viewiframe1','hideiframe1','aniframeupstart1');" 
+   class="overlay"
+   style="line-height: 16px; z-index: 2;"
+      right:0;
+      left:0;
+      top:0;
+      bottom:16;
+      font-size: 8px; 
+      font-weight: bold; 
+      font-family: sans-serif; 
+      color: blue; 
+      background-color: transparent;">
+<nobr>[]</nobr>
+</span>
+<span 
+   id="hideiframe1" 
+   onclick="DoHideIFRAME('hideiframe1','aniframeupstart1','viewiframe1');" 
+   class="overlay:"
+   style=""line-height: 16px; z-index: 2;"; 
+      right:0;
+      left:0;
+      top:0;
+      bottom:16; 
+      font-size: 8px; 
+      font-weight: bold; 
+      font-family: sans-serif; 
+      background-color: transparent; 
+      color: blue;">
+<nobr>[]</nobr>
+</span>
+
+<div 
+   id="aniframeupstart1" 
+   align="center" 
+   style="display: none;">
+  <iframe 
+     src="https://calculustips.xyz" 
+     margin="0" 
+     border="none" 
+     scrollbars="auto" 
+     width="1300px" 
+     height="620px">
+  </iframe>
+</div>
+</body>
