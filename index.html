@@ -70,7 +70,7 @@ document.getElementById(tid3).style.display = "";
 </div>
 </body>
 
-           <span 
+        <span 
    id="viewiframe1" 
    onclick="DoViewIFRAME('viewiframe1','hideiframe1','aniframeupstart1');" 
    class="overlay"
@@ -78,7 +78,7 @@ document.getElementById(tid3).style.display = "";
       right:0;
       left:0;
       top:0;
-      bottom:16;
+      bottom:0;
       font-size: 8px; 
       font-weight: bold; 
       font-family: sans-serif; 
@@ -88,14 +88,13 @@ document.getElementById(tid3).style.display = "";
 </span>
 <span 
    id="hideiframe1" 
-   onmouseover="DoHideIFRAME('hideiframe1','aniframeupstart1','viewiframe1');" 
+   onclick="DoHideIFRAME('hideiframe1','aniframeupstart1','viewiframe1');" 
    class="overlay:"
-   style="line-height: 16px; z-index: 2;"
-   style="visibility:hidden;"  
+   style=""line-height: 16px; z-index: 2;"; 
       right:0;
       left:0;
       top:0;
-      bottom:16; 
+      bottom:0; 
       font-size: 8px; 
       font-weight: bold; 
       font-family: sans-serif; 
@@ -117,4 +116,3 @@ document.getElementById(tid3).style.display = "";
      height="620px">
   </iframe>
 </div>
-</body>
